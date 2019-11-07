@@ -1,0 +1,69 @@
+<resources>
+    <!-- GENERAL -->
+    <string name="app_name">Sky Buddy</string>
+    <string name="contentDescriptionSplashScreen">Splash screen logo</string>
+    <string name="title_activity_main">Sky Buddy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- WELCOME FRAGMENT -->
+    <string name="hello_string_fragment">Bienvenue sur Sky Buddy.</string>
+
+    <!--DISCUSSING FRAGMENT -->
+    <string name="discussing_string_description">Toutes les discussions liées aux groupes</string>
+
+    <!-- PROFILE FRAGMENT -->
+    <string name="nav_header_title">User Test</string>
+    <string name="nav_header_subtitle">Commandant de bord</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- FOLLOW FRAGMENT -->
+    <string name="follow_string_description">Tous les vols auxquels vous avez souscrits.</string>
+
+    <!-- DETAIL FLIGHT FRAGMENT -->
+    <string name="detailflight_flightcode">XX 999</string>
+    <string name="detailflight_departure">DEPARTURE</string>
+    <string name="detailflight_destination">DESTINATION</string>
+    <string name="detailflight_takeofftime">99:99</string>
+    <string name="detailflight_landingtime">99:99</string>
+    <string name="detailflight_takeoffairport">TAKEOFFAIRPORT</string>
+    <string name="detailflight_landingairport">LANDINGAIRPORT</string>
+    <string name="detailflight_flightdate_month">MON</string>
+    <string name="detailflight_flightdate_day">99</string>
+    <string name="detailflight_buddiesonboard">Buddies sur ce vol</string>
+    <string name="detailflight_joinflight">Embarquer!</string>
+
+    <!-- Buddies RecyclerView -->
+    <string name="detailflight_buddies_name">NAME</string>
+    <string name="detailflight_buddies_lastname">LASTNAME</string>
+    <string name="detailflight_buddies_rank">RANK</string>
+    <string name="detailflight_buddies_age">XX ans</string>
+
+    <!-- ADD FLIGHT FRAGMENT -->
+    <string name="hint_flight_name">Référence de vol</string>
+    <string name="add_flight">Permet d\'ajouter un vol à la base de données et créer un groupe</string>
+    <string name="from">De</string>
+    <string name="to">Vers</string>
+    <string name="private_flight">Privé</string>
+    <string name="public_flight">Public</string>
+
+    <!-- MENU -->
+    <string name="action_about">A propos</string>
+
+    <!-- FRAGMENTS A PROPOS -->
+    <string name="AboutSocial_fragment_title">Social</string>
+    <string name="Goal_fragment_title">Buts</string>
+    <string name="Idea_fragment_title">Une simple idée</string>
+
+    <string name="idea_fragment_string">Partons de la simple idee qu\'une phobie, une petite peur, une envie de rencontre.. Doit se resoudre par l\'accompagnement d\'une ou plusieurs personnes. En effet, il est mieux de prendre l\'avion avec une personne amicale ou rassurante ? Non ?</string>
+    <string name="social_fragment_string">Partant de ce constat, nous avons mit au point Sky Buddy. Qui permet d\'ameliorer les interractions sociales avant un voyage ou directement a l\'aeroport. C\'est quand meme mieux a plusieurs !</string>
+    <string name="goal_fragment_string">C\'est pour ça qu\'avec Sky buddy, nous voulons ameliorer l\'experience des utilisateurs dans les aéroports, et eviter aux phobiques, des peurs bleus la-haut dans le ciel.</string>
+    <!-- HELLO BLANK SI BESOIN D'UNE STRING DE TEST -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_localisation">Map</string>
+
+    <string name="channel_name">Messages</string>
+    <string name="channel_description">Channel des nouveaux notifications pour les messages</string>
+
+
+</resources>

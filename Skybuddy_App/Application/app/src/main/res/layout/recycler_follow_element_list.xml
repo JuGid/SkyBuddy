@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/followGeneralLayout"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape_flight_background"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/TV_followrecycler_nom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TS 255"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/TV_followrecycler_villedepart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Paris (CDG)"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/TV_followrecycler_villearrivee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Montréal (YUL)"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/TV_followrecycler_datedepart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="16:30"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:id="@+id/TV_followrecycler_datearrivee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="18:32"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_menu_profile"/>
+                <TextView
+                    android:id="@+id/TV_followrecycler_nbuser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="25"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

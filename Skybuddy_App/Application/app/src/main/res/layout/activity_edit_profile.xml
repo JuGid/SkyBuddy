@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SubscribeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/skybuddy_background_member"
+        android:scaleType="centerCrop"
+        android:alpha="1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/ImageViewProfilePicture"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/waivion_logo_transparent" />
+
+            <Button
+                android:id="@+id/ButtonEditPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_signin_member"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Edit picture"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_username_member"
+                android:text="Edit email"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editTextActualEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint=" Aucun email actuellement"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/editTextEditEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/editTextEditEmailCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_password_member"
+                android:hint="Verify email"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_username_member"
+                android:text="Edit description"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editTextActualDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Aucune description actuellement"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/editTextEditDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_password_member"
+                android:hint="\nDescription\n\n"
+                android:inputType="text"
+                android:maxLength="140"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_username_member"
+                android:text="Edit password"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextEditPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="New password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/editTextEditPasswordCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_password_member"
+                android:hint="Verify new password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/ButtonEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_signin_member"
+                android:text="Edit"
+                android:textColor="@color/white" />
+
+            <!--<TextView
+                android:id="@+id/textViewResultPassword"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Result password"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:textColor="@color/colorPrimary" />
+            <TextView
+                android:id="@+id/textViewResultMail"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Result mail"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:textColor="@color/colorPrimary" />
+            <TextView
+                android:id="@+id/textViewResultDescription"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Result description"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:textColor="@color/colorPrimary" />-->
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

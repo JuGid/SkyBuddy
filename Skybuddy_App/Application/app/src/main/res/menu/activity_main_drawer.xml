@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Ton profil" />
+        <item
+            android:id="@+id/nav_flights"
+            android:icon="@drawable/ic_flight_takeoff"
+            android:title="Vols" />
+        <item
+            android:id="@+id/nav_follow"
+            android:icon="@drawable/ic_menu_follow"
+            android:title="Abonnements" />
+        <item
+            android:id="@+id/nav_rates"
+            android:icon="@drawable/ic_menu_rates"
+            android:title="Commentaires" />
+        <item
+            android:id="@+id/nav_articles"
+            android:icon="@drawable/ic_menu_articles"
+            android:title="Lire" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_messaging"
+                android:icon="@drawable/ic_menu_discussing"
+                android:title="Discussions" />
+        </menu>
+    </item>
+
+    <item android:title="Autre">
+        <menu>
+            <item
+                android:id="@+id/nav_disconnect"
+                android:icon="@drawable/ic_menu_disconnect"
+                android:title="Deconnecter" />
+        </menu>
+    </item>
+
+
+</menu>
